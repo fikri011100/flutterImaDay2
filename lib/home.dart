@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'halaman1.dart';
 import 'halaman2.dart';
 import 'halaman3.dart';
+import 'halaman4.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -96,7 +97,7 @@ class HalamanUI extends StatelessWidget {
                 ),
                 onTap: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Halaman1()));
+                      context, MaterialPageRoute(builder: (context) => WAPage()));
                 },
               ),
             ],

@@ -10,7 +10,7 @@ class MyGridView {
           Center(child: Text(nama),)
         ],
       ),
-    )
+    );
   }
 
   GridView build() {
@@ -18,13 +18,13 @@ class MyGridView {
       padding: EdgeInsets.all(10),
       crossAxisCount: 2,
       children: <Widget>[
-        getTampilanGridView('pepe', 'https://66.media.tumblr.com/0688c6894e55e69dd2c2666eeacc7340/tumblr_inline_nt0vfexkpK1spsojg_500.jpg'),
-        getTampilanGridView('defrog', 'https://66.media.tumblr.com/0688c6894e55e69dd2c2666eeacc7340/tumblr_inline_nt0vfexkpK1spsojg_500.jpg'),
-        getTampilanGridView('def', 'https://66.media.tumblr.com/0688c6894e55e69dd2c2666eeacc7340/tumblr_inline_nt0vfexkpK1spsojg_500.jpg'),
-        getTampilanGridView('frog', 'https://66.media.tumblr.com/0688c6894e55e69dd2c2666eeacc7340/tumblr_inline_nt0vfexkpK1spsojg_500.jpg'),
-        getTampilanGridView('pepe', 'https://66.media.tumblr.com/0688c6894e55e69dd2c2666eeacc7340/tumblr_inline_nt0vfexkpK1spsojg_500.jpg'),
-        getTampilanGridView('hehe', 'https://66.media.tumblr.com/0688c6894e55e69dd2c2666eeacc7340/tumblr_inline_nt0vfexkpK1spsojg_500.jpg'),
-        getTampilanGridView('apaya?', 'https://66.media.tumblr.com/0688c6894e55e69dd2c2666eeacc7340/tumblr_inline_nt0vfexkpK1spsojg_500.jpg'),
+        getTampilanGridView('pepe', 'https://thumbs.ebaystatic.com/d/l225/m/m83mpKWGcxhLMaYNxzcX2eQ.jpg'),
+        getTampilanGridView('defrog', 'https://thumbs.ebaystatic.com/d/l225/m/m83mpKWGcxhLMaYNxzcX2eQ.jpg'),
+        getTampilanGridView('def', 'https://thumbs.ebaystatic.com/d/l225/m/m83mpKWGcxhLMaYNxzcX2eQ.jpg'),
+        getTampilanGridView('frog', 'https://thumbs.ebaystatic.com/d/l225/m/m83mpKWGcxhLMaYNxzcX2eQ.jpg'),
+        getTampilanGridView('pepe', 'https://thumbs.ebaystatic.com/d/l225/m/m83mpKWGcxhLMaYNxzcX2eQ.jpg'),
+        getTampilanGridView('hehe', 'https://thumbs.ebaystatic.com/d/l225/m/m83mpKWGcxhLMaYNxzcX2eQ.jpg'),
+        getTampilanGridView('apaya?', 'https://thumbs.ebaystatic.com/d/l225/m/m83mpKWGcxhLMaYNxzcX2eQ.jpg'),
       ],
     );
   }
