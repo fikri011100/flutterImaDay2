@@ -27,16 +27,20 @@ class Halaman2 extends StatelessWidget {
         warnabg: Colors.purple,
       ),
       body: ListView.separated(
-        separatorBuilder: (context, index) => Divider(color: Colors.black,),
+        separatorBuilder: (context, index) => Divider(
+              color: Colors.black,
+            ),
         itemCount: dataMakanan.length,
         itemBuilder: (context, index) {
-          return ListTile(
+          return Card(
+              child: ListTile(
             onTap: () {
-              Toast.show('${dataMakanan[index].toString()}', context, duration: Toast.LENGTH_LONG);
+              Toast.show('${dataMakanan[index].toString()}', context,
+                  duration: Toast.LENGTH_LONG);
             },
             trailing: Icon(dataMakananGambar[index]),
             title: Text(dataMakanan[index]),
-          );
+          ));
         },
       ),
     );

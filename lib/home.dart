@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'halaman1.dart';
 import 'halaman2.dart';
+import 'halaman3.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -77,13 +78,13 @@ class HalamanUI extends StatelessWidget {
                 child: Row(
                   children: <Widget>[
                     Column(
-                      children: <Widget>[Icon(Icons.android), Text('fuschia')],
+                      children: <Widget>[Icon(Icons.android), Text('grid')],
                     )
                   ],
                 ),
                 onTap: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Halaman1()));
+                      context, MaterialPageRoute(builder: (context) => Halaman3()));
                 },
               ), GestureDetector(
                 child: Row(
