@@ -43,7 +43,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(''),
+      title: Text(title),
       elevation: 10,
       centerTitle: true,
       leading: Icon(Icons.home),
@@ -51,7 +51,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
         IconButton(icon: Icon(Icons.search)),
         IconButton(icon: Icon(Icons.settings)),
       ],
-      backgroundColor: Colors.amberAccent,
+      backgroundColor: warnabg,
     );
   }
 
